@@ -1,8 +1,8 @@
 # Azure AD Multi-Region VM Creation Script
 
 # Basic settings
-$user = "shumi"
-$pass = "YourSecurePassword123!" # Replace with a secure password
+$user = "emma"
+$pass = "Emmanuel@123" # Replace with a secure password
 $securePass = ConvertTo-SecureString $pass -AsPlainText -Force
 
 # Function to create VMs in a specific region with static IPs
