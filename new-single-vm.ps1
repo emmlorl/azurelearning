@@ -1,9 +1,9 @@
 # Basic settings
 $rg = "rg-lit-ADLab-created-with-powershell"
 $vm = "lit-dc-ps"
-$loc = "westeurope"
-$user = "vitalii"
-$pass = ConvertTo-SecureString "YourSecurePassword123!" -AsPlainText -Force
+$loc = "west Europe"
+$user = "emma"
+$pass = ConvertTo-SecureString "Emmanuel@123" -AsPlainText -Force
 
 # Create resource group
 New-AzResourceGroup -Name $rg -Location $loc -Force
